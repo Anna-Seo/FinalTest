@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <style>
+        fieldset{
+          text-align:left;
+          width:400px;
+          border:#c1c1c1 solid 1px;
+          padding:30px;
+        }
+        body{
+          text-align: center;
+          margin: 0px auto;
+        }
+        fieldset{
+          text-align: left;
+          margin: 0px auto;
+        }
+      </style>
+</head>
+<body>
+    <h1>Sign In</h1>
+    <form method="post" action="/signIn">
+        <fieldset>
+        <label for="email">Email: </label>
+        <input class="form-control"id="email" name="email" type="text" /><br />
+        <label for="password">Password: </label>
+        <input class="form-control" id="password" name="password" type="text" /><br />
+        <input type="submit" value="Sign in">
+        <input type="reset" value="Reset">
+    </fieldset>
+  </form>
+  <a href='/'>Go Home</a>
+</body>
+</html>
